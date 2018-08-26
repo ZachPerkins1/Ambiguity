@@ -1,0 +1,171 @@
+#header {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: "aurea-ultra";
+    margin-top: 30px;
+}
+
+#header-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+}
+
+#menu {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu-item a:hover {
+    text-decoration: underline;
+}
+
+#shop {
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#shop a {
+    text-decoration: none;
+    color: black;
+}
+
+.shop-item {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border: 1px black solid;
+    transition: all 0.3s;
+}
+
+.shop-item:hover {
+    background-color: darkgray;
+    transition: all 0.3s;
+}
+
+.shop-image {
+    height: 250px;
+}
+
+.shop-title {
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+.shop-price {
+    
+}
+
+#about {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about-header {
+    font-family: "aurea-ultra";
+    font-size: 23px;
+}
+
+.about-content {
+    padding-top: 4px;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+.faq {
+    padding-bottom: 5px;
+}
+
+.faq-question {
+    font-weight: bold;
+}
+
+.faq-answer {
+    padding-left: 15px
+}
+
+#footer {
+    text-align: center;
+}
+
+#cart {
+    max-width: 1000px;
+    padding-top: 30px;
+    margin: auto;
+}
+
+.cart-item {
+    height: 70px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.cart-item-left {
+    display: inline-block;
+    float: left;
+    height: inherit;
+}
+
+.cart-item-right {
+    display: inline-block;
+    float: right;
+    height: inherit;
+}
+
+.cart-item-component {
+    position: relative;
+    bottom: 50%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: inherit;
+}
+
+.cart-item-image img {
+    height: inherit;
+}
+
+.cart-item-title {
+    padding-left: 40px
+}
+
+.cart-item-price {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cart-item-remove {
+    padding-left: 20px;
+}
+
+#cart-footer {
+    height: 100px;
+    font-size: 20px;
+}
+
+#cart-footer-container {
+    float: right;
+    height: 50px;
+    margin-right: 25px;
+}
